@@ -31,8 +31,8 @@ img{
 /* Begin Hero Styles */
 .hero-box{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
     grid-gap: 0px;
     justify-content: center;
     align-items: start;
