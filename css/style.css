@@ -97,9 +97,10 @@ img{
 
 .portfolio-container h1{
     font-size: 2rem;
+    text-align: center;
     line-height: 2rem;
     /*change colour later*/
-    color: green;
+    color: white;
 }
 
 .portfolio-gallery{
@@ -110,13 +111,13 @@ img{
 }
 
 .gallery-item{
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     overflow: hidden;
 }
 
 .gallery-image{
-    height: 100%;
+    height: 50%;
     object-fit: cover;
     transition: 0.5s ease-in-out;
 }
