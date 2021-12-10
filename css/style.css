@@ -106,18 +106,19 @@ img{
 .portfolio-gallery{
     display: grid;
     grid-template-columns: repeat(auto-auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-auto-fit, minmax(300px, 1fr));
     grid-gap: 0.5rem;
     grid-auto-rows: 300px;
 }
 
 .gallery-item{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
 .gallery-image{
-    height: 50%;
+    height: 100%;
     object-fit: cover;
     transition: 0.5s ease-in-out;
 }
@@ -154,7 +155,7 @@ img{
     .portfolio-container {
         max-width: 1400px;
     }
-    .portfolio-sontainer h1{
+    .portfolio-container h1{
         font-size: 6rem;
         line-height: 6rem;
     }
